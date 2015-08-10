@@ -9,4 +9,3 @@ then
   sleep 1
   x11vnc -noxrecord -noxfixes -noxdamage -nopw -o /var/x11vnc.log -forever -bg -rfbport 5900
 fi
-bash

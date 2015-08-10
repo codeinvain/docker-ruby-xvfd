@@ -29,5 +29,5 @@ ADD fluxbox /root/.fluxbox
 RUN chmod +x /root/init.sh
 
 # run virtual screen (xvfb) and optinally start vnc
-ENTRYPOINT ["/root/init.sh"]
+CMD["/bin/bash"]
 
